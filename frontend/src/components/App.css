@@ -1,0 +1,36 @@
+/* src/components/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.App-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.App-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  display: none; /* Hide the title */
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 20px; /* Adjust top positioning */
+  left: 20px; /* Adjust left positioning */
+  width: 200px; /* Increase width */
+}

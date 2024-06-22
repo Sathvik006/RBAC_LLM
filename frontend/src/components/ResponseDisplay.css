@@ -1,0 +1,31 @@
+/* src/components/ResponseDisplay.css */
+
+.response-display {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px; /* Adjust top margin */
+}
+
+.message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message.received {
+  align-self: flex-start;
+}
+
+.message.sent {
+  align-self: flex-end;
+}
+
+.message-content {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-content p {
+  margin: 0;
+}

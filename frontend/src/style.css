@@ -1,0 +1,103 @@
+/* src/styles.css */
+
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global container */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Main content container */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Response display styles */
+.response-display {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Query container */
+.query-container {
+  width: 70%; /* Adjust as needed */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Query input styles */
+.query-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* Added for absolute positioning */
+}
+
+.query-input input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.query-input button {
+  background-color: #007bff; /* Dark blue */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.query-input button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Status message styles */
+.status-message {
+  margin-top: 10px;
+  color: #007bff; /* Dark blue */
+  font-size: 16px;
+}
