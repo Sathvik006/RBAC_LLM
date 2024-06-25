@@ -10,6 +10,6 @@ Retrieval Context:\nContext: {context}\n\nUser Query: {query}\n\nResponse:"""
 
 def query_model(payload):
     API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer hf_XXXXXXXXXXXXXXXXXXX"}
     response = requests.post(API_URL, headers=headers, json=payload)
     return response.json()
